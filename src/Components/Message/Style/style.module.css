@@ -1,0 +1,14 @@
+.myMsg{
+    width: 80%;
+    height: auto;
+    
+}
+
+.msgForMe{
+    height: 161px;
+    width: 80%;
+    border-radius: 12px;
+    font: inherit;
+    letter-spacing: inherit;
+    background-color: #D6EAEA;
+}
