@@ -1,10 +1,15 @@
 import { useForm, SubmitHandler } from "react-hook-form"
 import styles from "../Files/styles.module.css"
+import PhotoUpload from "../PhotoUpload/photoUpload";
+
+
 //icons
 import { FaFileSignature } from "react-icons/fa";
 import { MdOpenInBrowser } from "react-icons/md";
 import { BsFillPassportFill } from "react-icons/bs";
 import { FaAddressCard } from "react-icons/fa";
+
+
 
 
 
@@ -18,7 +23,7 @@ const Files = ({ register }) => {
         <input className={styles.fileInps} type="number" placeholder="ՀԾՀ*"  {...register("public service")} />
 
         <div className={styles.publicService}>
-            <FaFileSignature className={styles.fileIcs} /> <MdOpenInBrowser className={styles.fileIcs} />
+            <FaFileSignature className={styles.fileIcs} />  <PhotoUpload />
         </div>
 
         <input className={styles.fileInps} type="number" placeholder="Անձնագրի համար*"  {...register("personal signature")} />
