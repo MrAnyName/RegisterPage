@@ -56,7 +56,7 @@ const PhotoUpload = ()=> {
             &nbsp;
             {imageList.map((image, index) => (
               <div style={{display:"flex",alignItems:"center"}} key={index} className="image-item">
-                <img  onClick={() =>  onImageUpdate(index)}src={image['data_url']} alt="" width="100" />
+                <img className={Styles.upPhotos} onClick={() =>  onImageUpdate(index)}src={image['data_url']} alt="" width="100" />
                 <div  className="image-item__btn-wrapper">
                 <button style={{color:"red"}} onClick={() => onImageRemove(index)}>{<MdOutlineDeleteOutline />}</button>
                 </div>

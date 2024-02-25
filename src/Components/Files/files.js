@@ -30,7 +30,7 @@ const Files = ({ register }) => {
 
         <div className={styles.publicService}>
         <BsFillPassportFill className={styles.fileIcs} />
-        <MdOpenInBrowser className={styles.fileIcs} />
+        <PhotoUpload />
        
         </div>
 
@@ -39,7 +39,7 @@ const Files = ({ register }) => {
         <input className={styles.fileInps} type="number" placeholder="Նույնականության քարտի համարը*"  {...register("card")} />
         <div className={styles.publicService}>
         <FaAddressCard className={styles.fileIcs} />
-        <MdOpenInBrowser className={styles.fileIcs} />
+        <PhotoUpload />
         </div>
 
     </div>

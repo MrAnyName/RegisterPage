@@ -8,18 +8,22 @@
     background-color: #f6fafa;
 }
 .myDiv{
-    width: 150px;
-    max-width: 100%;
+    min-width: 160px;
+    max-width: 250px;
     height: 60px;
     padding: 16.5px 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    
 }
 .fileIcs {
     width: 50%;
     height: auto;
     color: rgb(11, 132, 127);
     cursor: pointer;
+  }
+  .upPhotos{
+    width: 50%;
+    height: auto;
   }

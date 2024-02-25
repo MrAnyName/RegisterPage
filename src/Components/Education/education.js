@@ -1,5 +1,5 @@
 import styles from "../Files/styles.module.css"
-
+import PhotoUpload from "../PhotoUpload/photoUpload"
 
 ///icons
 import { FcDiploma2 } from "react-icons/fc";
@@ -17,7 +17,7 @@ const Education = ({ register }) => {
 <input className={styles.fileInps}  type="number" placeholder="Ավարտ*"  {...register("end")} />
 <div className={styles.publicService}>
         <FcDiploma2 className={styles.fileIcs} />
-        <MdOpenInBrowser className={styles.fileIcs} />
+        <PhotoUpload />
         </div>
 
     </div>
